@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Personal Portfolio Template" />
+	<meta name="keywords" content="resposnive, resume, personal, personal portfolio, cv, myour, portfolio" />
+	<meta name="author" content="beshleyua" />
+
+	<!-- Title -->
+	<title>В память об Аубекеровой Светлане</title>
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+	<!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/jarallax.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/swiper.css" />
+	<link rel="stylesheet" href="css/fontawesome.css" />
+	<link rel="stylesheet" href="css/theme-colors/green_light.css" />
+
+	<!-- Theme Colors
+	<link rel="stylesheet" href="css/theme-colors/blue.css" />
+	<link rel="stylesheet" href="css/theme-colors/green.css" />
+	<link rel="stylesheet" href="css/theme-colors/orange.css" />
+	<link rel="stylesheet" href="css/theme-colors/brown.css" />
+	<link rel="stylesheet" href="css/theme-colors/purple.css" />
+	<link rel="stylesheet" href="css/theme-colors/red.css" />
+	<link rel="stylesheet" href="css/theme-colors/beige.css" />
+	<link rel="stylesheet" href="css/theme-colors/yellow.css" />
+	<link rel="stylesheet" href="css/theme-colors/yellow_light.css" />
+	-->
+		
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+
+</head>
+
+<body class="home">
+
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="box-1">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="lines"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box-2"></div>
+	</div>
+	
+	<!-- Container -->
+	<div class="container">
+	
+		<!-- Header -->
+		<header class="header">
+
+			<!-- logo -->
+			<div class="logo">
+				<a href="#">
+					<img class="logo-img" src="images/logo.png" alt="" />
+					<span class="logo-lnk"> Аубекерова <br />Светлана</span>
+				</a>
+			</div>
+
+			<!-- menu button -->
+			<a href="#" class="menu-btn"><span></span></a>
+				
+			<!-- download cv button -->
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSePylirA7cQq6sEqJs3110QppScWY4yqZQfrPzUF_5tCWKWEg/viewform?usp=sf_link" class="btn download-cv-btn">
+				<span class="animated-button"><span>Рассказать историю</span></span>
+			</a>
+
+			<!-- header sidebar -->
+			<div class="header-sidebar">
+
+				<!-- top menu -->						
+				<div class="top-menu">
+					<div class="top-menu-nav">	
+						<div class="menu-topmenu-container">
+							<ul class="menu">
+								<li class="menu-item">
+									<a href="index.html">
+										<span class="animated-button"><span>Главная</span></span>
+									</a>
+<!-- 									<ul class="sub-menu">
+										<li class="menu-item current-menu-item"><a href="index.html">Home 1</a></li>
+										<li class="menu-item"><a href="index-2.html">Home 2</a></li>
+										<li class="menu-item"><a href="index-3.html">Home 3</a></li>
+										<li class="menu-item"><a href="index-slider.html">Home Slider</a></li>
+										<li class="menu-item"><a href="index-video.html">Home Video</a></li>
+									</ul> -->
+								</li>
+								<li class="menu-item">
+									<a href="gallery.html">
+										<span class="animated-button"><span>Фотоальбом</span></span>
+									</a>
+								</li>
+								<li class="menu-item">
+									<a href="stories.html">
+										<span class="animated-button"><span>Истории</span></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</header>
+		
+		<!-- Wrapper -->
+		<div class="wrappernew">
+    
+			<!-- Works -->
+			<div class="section works" id="section-portfolio">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Истории</div>
+						<div class="subtitle">Истории из жизни Светланы</div>
+					</div>
+                    <select name="stories" id="stories" onchange="storyFilter(this)">
+                        <option value="all" selected="selected">Все истории</option>
+                        <option value="daniyar">Данияр</option>
+                        <option value="dina">Дина</option>
+                        <option value="family">Семья</option>
+                        <option value="friends">Друзья и коллеги</option>
+                    </select>
+ 
+
+
+                    <!-- Daniyar Stories -->
+                    <div class="my-3 p-3 bg-white rounded shadow-sm" id="daniyar-stories">
+                        <h6 class="border-bottom pb-2 mb-0">Данияр</h6>
+
+                        <!-- Story 1 -->
+                        <div class="d-flex text-muted pt-3">
+                            <p class="pb-3 mb-0 small lh-sm border-bottom">
+                                <strong class="d-block text-gray-dark">Аубекеров Данияр</strong>
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                <br> <a href="#daniyar-1" class="has-popup-media btn-secondary" >Читать историю</a>
+                            </p>
+                            
+                            <div id="daniyar-1" class="popup-box mfp-fade mfp-hide">
+									<div class="content">
+										
+										<div class="desc">
+											<div class="category">Аубекеров Данияр</div>
+											<h4>Yellow and Blue Striped</h4>
+											<p>
+												 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac enim elit. Nam eget urna enim. Sed sollicitudin nulla eget felis pellentesque rutrum. Cras dolor dolor, pharetra sed justo in, iaculis lacinia est. Sed risus dolor, fringilla ac commodo id, dapibus dictum orci. Nam vulputate risus at erat cursus iaculis. Cras ullamcorper risus eget tincidunt suscipit. Ut ornare ligula non arcu facilisis consectetur non quis enim. Etiam id metus a felis pharetra feugiat. Morbi sit amet ligula sodales, aliquet elit et, hendrerit magna. Cras ut fringilla nisl.
+
+												Sed feugiat neque eu euismod tincidunt. Mauris non congue sapien, sit amet consectetur enim. Sed pretium odio elit, et consequat sem tincidunt et. Cras sollicitudin nisi eget velit pharetra, consectetur pellentesque erat imperdiet. Nunc accumsan egestas augue, sollicitudin posuere neque sollicitudin ac. Morbi sed quam id nulla venenatis euismod. Sed finibus turpis ex, non varius elit eleifend sed. Nam egestas accumsan massa sit amet sollicitudin. Mauris elit arcu, volutpat id vestibulum vitae, molestie ac justo. Vivamus vel massa rutrum, vulputate urna id, tincidunt lorem. Nam vitae ipsum in arcu rhoncus tincidunt. Nunc placerat in mauris quis malesuada. Morbi aliquam sollicitudin augue, vel varius sem placerat ac. 
+											</p>
+										</div>
+									</div>
+								</div>          
+                        </div>
+
+                        <!-- Story 2 -->
+                        <div class="d-flex text-muted pt-3">
+                            <p class="pb-3 mb-0 small lh-sm border-bottom">
+                                <strong class="d-block text-gray-dark">Аубекеров Данияр</strong>
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                <br> <a href="#daniyar-2" class="has-popup-media btn-secondary" >Читать историю</a>
+                            </p>
+                            
+                            <div id="daniyar-2" class="popup-box mfp-fade mfp-hide">
+									<div class="content">
+										
+										<div class="desc">
+											<div class="category">Аубекеров Данияр</div>
+											<h4>Yellow and Blue Striped</h4>
+											<p>
+												 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac enim elit. Nam eget urna enim. Sed sollicitudin nulla eget felis pellentesque rutrum. Cras dolor dolor, pharetra sed justo in, iaculis lacinia est. Sed risus dolor, fringilla ac commodo id, dapibus dictum orci. Nam vulputate risus at erat cursus iaculis. Cras ullamcorper risus eget tincidunt suscipit. Ut ornare ligula non arcu facilisis consectetur non quis enim. Etiam id metus a felis pharetra feugiat. Morbi sit amet ligula sodales, aliquet elit et, hendrerit magna. Cras ut fringilla nisl.
+
+												Sed feugiat neque eu euismod tincidunt. Mauris non congue sapien, sit amet consectetur enim. Sed pretium odio elit, et consequat sem tincidunt et. Cras sollicitudin nisi eget velit pharetra, consectetur pellentesque erat imperdiet. Nunc accumsan egestas augue, sollicitudin posuere neque sollicitudin ac. Morbi sed quam id nulla venenatis euismod. Sed finibus turpis ex, non varius elit eleifend sed. Nam egestas accumsan massa sit amet sollicitudin. Mauris elit arcu, volutpat id vestibulum vitae, molestie ac justo. Vivamus vel massa rutrum, vulputate urna id, tincidunt lorem. Nam vitae ipsum in arcu rhoncus tincidunt. Nunc placerat in mauris quis malesuada. Morbi aliquam sollicitudin augue, vel varius sem placerat ac. 
+
+											</p>
+										</div>
+									</div>
+								</div>          
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- Dina Stories -->
+                    <div class="my-3 p-3 bg-white rounded shadow-sm" id="dina-stories">
+                        <h6 class="border-bottom pb-2 mb-0">Дина</h6>
+
+                        <!-- Story 1 -->
+                        <div class="d-flex text-muted pt-3">
+                            <p class="pb-3 mb-0 small lh-sm border-bottom">
+                                <strong class="d-block text-gray-dark">Давлет Дина</strong>
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                <br> <a href="#dina-1" class="has-popup-media btn-secondary" >Читать историю</a>
+                            </p>
+                            
+                            <div id="dina-1" class="popup-box mfp-fade mfp-hide">
+									<div class="content">
+										
+										<div class="desc">
+											<div class="category">Давлет Дина</div>
+											<h4>Yellow and Blue Striped</h4>
+											<p>
+												Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata 
+												suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+											</p>
+										</div>
+									</div>
+								</div>          
+                        </div>
+
+                        <!-- Story 2 -->
+                        <div class="d-flex text-muted pt-3">
+                            <p class="pb-3 mb-0 small lh-sm border-bottom">
+                                <strong class="d-block text-gray-dark">Давлет Дина</strong>
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                <br> <a href="#dina-2" class="has-popup-media btn-secondary" >Читать историю</a>
+                            </p>
+                            
+                            <div id="dina-2" class="popup-box mfp-fade mfp-hide">
+									<div class="content">
+										
+										<div class="desc">
+											<div class="category">Давлет Дина</div>
+											<h4>Yellow and Blue Striped</h4>
+											<p>
+												Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata 
+												suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+											</p>
+										</div>
+									</div>
+								</div>          
+                        </div>
+
+
+                    </div>
+
+                    <!-- Family Stories -->
+                    <div class="my-3 p-3 bg-white rounded shadow-sm" id="family-stories">
+                        <h6 class="border-bottom pb-2 mb-0">Семья</h6>
+
+                        <!-- Story 1 -->
+                        <div class="d-flex text-muted pt-3">
+                            <p class="pb-3 mb-0 small lh-sm border-bottom">
+                                <strong class="d-block text-gray-dark">Махатова Дана</strong>
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                                <br> <a href="#family-1" class="has-popup-media btn-secondary" >Читать историю</a>
+                            </p>
+                            
+                            <div id="family-1" class="popup-box mfp-fade mfp-hide">
+									<div class="content">
+										
+										<div class="desc">
+											<div class="category">Махатова Дана</div>
+											<h4>Yellow and Blue Striped</h4>
+											<p>
+												Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata 
+												suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+											</p>
+										</div>
+									</div>
+								</div>          
+                        </div>
+
+                        
+
+
+                    </div>
+
+
+                    <!-- Friends Stories -->
+                    <div class="my-3 p-3 bg-white rounded shadow-sm" id="friends-stories">
+                        <h6 class="border-bottom pb-2 mb-0">Друзья и коллеги</h6>
+
+                        <!-- Story 1 -->
+                        <div class="d-flex text-muted pt-3">
+                            <p class="pb-3 mb-0 small lh-sm border-bottom">
+                                <strong class="d-block text-gray-dark">Жанахметов Арман</strong>
+                                История друга ее сына о поездке в Англию, креветках и периоде взросления.
+                                <br> <a href="#friends-1" class="has-popup-media btn-secondary" >Читать историю</a>
+                            </p>
+                            
+                            <div id="friends-1" class="popup-box mfp-fade mfp-hide">
+									<div class="content">
+										
+										<div class="desc">
+											<div class="category">Жанахметов Арман</div>
+											<h4>История друга ее сына о поездке в Англию, креветках и периоде взросления.</h4>
+											<p>
+												Историй слишком много, т.к я был частым гостем у Вас дома.
+												Сколько переездов я прошел вместе с вами. В памяти осталось теплое, доброе отношение Тети Светланы ко мне. Помню как она искренне  радовалась тому, что я начал достигать небольших высот по олимпиадам. Если бы не Тетя Светлана, то я бы не смог бы получить тот жизненный опыт в Англии, т.к это она уговорила моих родителей отправить нас с Даником туда) Помню как я в первый раз увидел креветки у Вас дома и она учила меня, как правильно их кушать, а я был в роли неандертальца( пока ты Даник сидел и смеялся надо мной)
+												Тетя Светлана останется в памяти, как улыбчивый и жизнерадостный человек. Так уж совпало, что мое знакомство было в период взросления и в этот время она была моим учителем жизни. 
+												Трудно подобрать нужные слова в такой момент, но спасибо Вам большое за то, что были частью моей жизни.
+											</p>
+										</div>
+									</div>
+								</div>          
+                        </div>
+
+                        <!-- Story 2 -->
+                        <div class="d-flex text-muted pt-3">
+                            <p class="pb-3 mb-0 small lh-sm border-bottom">
+                                <strong class="d-block text-gray-dark">Акерке Аскаргали</strong>
+                                Жена учителя ее сына, которая стала другом, с которой они могли обсудить мысли, месты и планы. 
+                                <br> <a href="#friends-2" class="has-popup-media btn-secondary" >Читать историю</a>
+                            </p>
+                            
+                            <div id="friends-2" class="popup-box mfp-fade mfp-hide">
+									<div class="content">
+										
+										<div class="desc">
+											<div class="category">Акерке Аскаргали</div>
+											<h4>Жена учителя ее сына, которая стала другом, с которой они могли обсудить мысли, месты и планы.</h4>
+											<p>
+												Мы познакомились на свадьбе ее сына. Она была очень приветлива и от нее шла очень теплая энергия. Мы обменялись тогда номерами, и еще, она сказала что живет недалеко от нас. Я была настолько тронута ее вниманием, что через некоторое время решила написать ей, спросить нужно ли чего, так как знала о ее борьбе с болезнью. Несмотря на разницу в возрасте, мы находили общий язык. Мы общались несколько раз по телефону и делились мыслями, мечтами, планами. Я ее смешила и ей нравилась моя ирония. Она очень хотела улучшить свой английский и я зареклась ей помогать. К сожалению, так и не смогли начать английский и не успели встретиться и прогуляться по речке. Она осталась для меня примером сильной по духу, стойкой женщиной. Она борец и умела держать удары судьбы. 
+											</p>
+										</div>
+									</div>
+								</div>          
+                        </div>
+
+
+                    </div>
+                    
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			
+	<!-- Scripts -->
+    <script src="js/stories.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/velocity.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/jarallax.js"></script>
+	<script src="js/jarallax-video.js"></script>
+	<script src="js/jarallax-element.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+</html>
